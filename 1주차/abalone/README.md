@@ -9,3 +9,9 @@
 - sex의 다다중공선성을 제거한 상태에서
 - rings의 레이블을 0~29까지 다시 재배열한 경우이다. 
 - ml_classification과 정확도면에서 변화가 없다.
+### ml_regression
+- StandardScaler() 적용
+- 선형회귀 : 유의미한 차이 없음
+- DT : mse가 0.2 더 낮음
+- RF : mse 0.03 높음
+- SVM : mse가 1.3 정도 더 낮음
