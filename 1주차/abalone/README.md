@@ -15,3 +15,12 @@
 - DT : mse가 0.2 더 낮음
 - RF : mse 0.03 높음
 - SVM : mse가 1.3 정도 더 낮음
+
+## DL
+### dl_classification
+- rings는 정수형 레이블이다
+- 그래서, `pd.get_dummies()` 아닌 `to_categorial()`을 적용함.
+### dl_classification2
+- dl_classification에 비교군이다.
+- `pd.get_dummies()`을 적용함.
+- 레이블 인코딩보다 그래프가 더 안정적이다.
