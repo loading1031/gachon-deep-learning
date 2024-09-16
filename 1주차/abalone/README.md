@@ -23,4 +23,9 @@
 ### dl_classification2
 - dl_classification에 비교군이다.
 - `pd.get_dummies()`을 적용함.
-- 레이블 인코딩보다 그래프가 더 안정적이다.
+- categorical 인코딩 그래프가 더 안정적이다.
+### dl_regression
+- Y를 `pd.get_dummies()`로 인코딩
+### dl_regression2
+- Y를 `to_categorial()`로 인코딩
+- dl_regression2가 훨씬 안정적인 그래프가 나옴.
